@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional Portfolio of Shikhar Chaurasia — Geophysicist & Developer. Specializing in seismic processing, visualization, interpretation, and AI/ML applications in geosciences.">
+  <title>Shikhar Chaurasia — Geophysicist & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Glow Effects -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+  <div class="glow-bg glow-3"></div>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a class="brand" href="#hero">
+        <svg class="brand-logo" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M15,35 C20,20 30,20 35,35" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="20" cy="22" r="3" fill="currentColor"/>
+          <circle cx="30" cy="22" r="3" fill="currentColor"/>
+        </svg>
+        <span>SC</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">
+          <!-- Moon Icon -->
+          <svg class="icon moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="icon sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="badge-accent">Geophysicist & Developer</div>
+        <h1>Shikhar Chaurasia</h1>
+        <p class="hero-tagline">Specializing in seismic data processing, visualization, interpretation modules, and machine learning workflows for geosciences.</p>
+        <p class="hero-lead">Geophysicist at Caliche developing the GARBH Hydrocarbon platform, supporting large-scale 2D and 3D SEG-Y analysis.</p>
+        <div class="cta">
+          <a class="btn primary" href="shikhar_cv.pdf" target="_blank" download>
+            <svg class="btn-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download CV
+          </a>
+          <a class="btn secondary" href="#certificates">View Certificates</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/shikhar-chaurasia-3475071a4/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://play.google.com/store/apps" target="_blank" rel="noopener" aria-label="Google Play Store">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="blob-container">
+          <div class="blob-frame">
+            <img class="hero-photo" src="photo.png" alt="Shikhar Chaurasia">
+          </div>
+          <!-- Futuristic Seismic Grid Simulation overlay -->
+          <div class="seismic-grid">
+            <div class="seismic-wave wave-1"></div>
+            <div class="seismic-wave wave-2"></div>
+            <div class="seismic-wave wave-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>About Me</h2>
+        <div class="divider"></div>
+        <p>A bridge between Geophysics and modern Software Engineering.</p>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>I am a geophysicist and developer with a passion for designing and building software applications to solve complex geoscience and energy problems. My work focuses on advanced seismic data processing, visualization, quality control, and machine learning pipelines.</p>
+          <p>With a comprehensive background in both theoretical physics and applied exploration geophysics, I construct highly optimized scientific code using Python, NumPy, Pandas, and multi-core architectures to handle large-scale SEG-Y gathers and inversion algorithms.</p>
+        </div>
+        <div class="education-card">
+          <h3>Education</h3>
+          <div class="edu-item">
+            <span class="edu-date">2022 — 2025</span>
+            <h4>M.Sc. (Tech.) Applied Geophysics</h4>
+            <p>Kurukshetra University, Haryana • <strong>CGPA: 8.56</strong></p>
+          </div>
+          <div class="edu-item">
+            <span class="edu-date">2019 — 2022</span>
+            <h4>B.Sc. (Hons.) Physics</h4>
+            <p>Gautam Buddha University, Greater Noida • <strong>Percentage: 81%</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Technical Skills</h2>
+        <div class="divider"></div>
+        <p>Expertise combining physical principles with analytical software tools.</p>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3>Geophysical Methods</h3>
+          <ul>
+            <li>Seismic Processing & Interpretation</li>
+            <li>Gravity & Magnetic Surveys</li>
+            <li>Seismic Refraction</li>
+            <li>Velocity Analysis & Quality Control</li>
+            <li>CG-5 Gravimeter & GSM-19T Magnetometer</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          </div>
+          <h3>Programming & DB</h3>
+          <ul>
+            <li>Python (Scientific Computing)</li>
+            <li>MATLAB & C++</li>
+            <li>FORTRAN</li>
+            <li>SQL</li>
+            <li>Multi-core Computing</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+          </div>
+          <h3>Libraries & Frameworks</h3>
+          <ul>
+            <li>NumPy & Pandas</li>
+            <li>TensorFlow & Scikit-Learn</li>
+            <li>Matplotlib (Seismic Wiggles, Grayscale)</li>
+            <li>Qt (Desktop GUI Development)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3>Software & Formats</h3>
+          <ul>
+            <li>Petrel & PaleoScan</li>
+            <li>Vista (Seismic Processing)</li>
+            <li>Power BI (Data Dashboards)</li>
+            <li>Git / GitHub & Linux</li>
+            <li>SEG-Y, CMP Gathers, Velocity Models</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Section -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Professional Experience</h2>
+        <div class="divider"></div>
+        <p>My career timeline and contributions to industrial projects.</p>
+      </div>
+      <div class="timeline reveal">
+        <!-- Caliche -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <h3>Geophysicist</h3>
+              <span class="timeline-date">Oct 2025 — Present</span>
+            </div>
+            <div class="timeline-org">Caliche – An Invention's Company • Noida, UP</div>
+            <p class="timeline-desc">Contributed to the development of <strong>GARBH Hydrocarbon</strong>, an indigenous seismic processing, visualization, and interpretation platform supporting large-scale 2D and 3D SEG-Y datasets.</p>
+            <ul class="timeline-bullets">
+              <li>Developed seismic interpretation and visualization modules including wiggle, grayscale, color amplitude displays, dynamic zooming, trace inspection, and interactive seismic analysis workflows.</li>
+              <li>Implemented seismic processing algorithms including Bandpass Filter, F-K Filter, AGC, Deconvolution, NMO Stack, Kirchhoff Time Migration, High-pass, Low-pass, Notch Filter, RMS Normalization, Mean Scaling, and Deghosting.</li>
+              <li>Designed and integrated seismic quality control tools including spectrum analysis, CMP gather visualization, velocity analysis, SEG-Y header inspection, trace editing, mute operations, and navigation basemap modules.</li>
+              <li>Collaborated to integrate AI/ML-ready architecture for future seismic interpretation and subsurface characterization.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- DGH -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <h3>Project Trainee (Internship)</h3>
+              <span class="timeline-date">2024</span>
+            </div>
+            <div class="timeline-org">Directorate General of Hydrocarbons (DGH)</div>
+            <p class="timeline-desc">Worked on the "Evaluation of Rig Days and Well Productivity in the Mahanadi Basin" using Petrel software.</p>
+            <ul class="timeline-bullets">
+              <li>Gained hands-on experience in well correlation, 3D geological modeling, and hydrocarbon exploration workflows.</li>
+              <li>Analyzed production metrics to evaluate exploration efficiency and drilling timelines.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ONGC -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <h3>Industrial Trainee (Internship)</h3>
+              <span class="timeline-date">2023</span>
+            </div>
+            <div class="timeline-org">ONGC • Vadodara</div>
+            <p class="timeline-desc">Completed a 15-day industrial training program focusing on seismic workflows.</p>
+            <ul class="timeline-bullets">
+              <li>Acquired insights into seismic data acquisition methodologies in the field.</li>
+              <li>Observed and studied commercial seismic processing and interpretation setups.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Projects & Dissertations</h2>
+        <div class="divider"></div>
+        <p>Showcase of key technical projects and scientific work.</p>
+      </div>
+      <div class="grid reveal">
+        <!-- Project 1 -->
+        <div class="card">
+          <div class="card-media project-1-bg">
+            <svg viewBox="0 0 100 60" class="project-wave" preserveAspectRatio="none">
+              <path d="M0,30 C30,10 70,50 100,30" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M0,40 C30,20 70,60 100,40" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+              <path d="M0,20 C30,0 70,40 100,20" fill="none" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <span class="project-tag">Deep Learning / Geophysics</span>
+            <h3>CNN-Based Gravity Inversion</h3>
+            <p>Developed deep learning-based inversion workflows for reconstructing 3D basement structures from gravity anomaly data at IIT Roorkee. Evaluated optimizer performance and convergence behavior.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+          <div class="card-media project-2-bg">
+            <div class="fault-lines">
+              <line x1="20" y1="10" x2="80" y2="50" stroke="currentColor" stroke-width="2" stroke-dasharray="4"/>
+              <line x1="10" y1="20" x2="40" y2="40" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="55" y1="35" x2="90" y2="55" stroke="currentColor" stroke-width="1.5"/>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="project-tag">AI / Machine Learning</span>
+            <h3>AI-Based Fault Detection</h3>
+            <p>Developed automated fault estimation workflows using Convolutional Neural Networks (CNNs). Applied machine learning techniques for seismic feature extraction and structural interpretation.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+          <div class="card-media project-3-bg">
+            <div class="seismic-wiggle-box">
+              <svg viewBox="0 0 100 60" fill="none" stroke="currentColor">
+                <path d="M 10 10 L 10 50 M 10 10 Q 15 20 10 30 T 10 50" stroke-width="1.5"/>
+                <path d="M 30 10 L 30 50 M 30 10 Q 38 20 30 30 T 30 50" stroke-width="1.5"/>
+                <path d="M 50 10 L 50 50 M 50 10 Q 42 20 50 30 T 50 50" stroke-width="1.5"/>
+                <path d="M 70 10 L 70 50 M 70 10 Q 75 20 70 30 T 70 50" stroke-width="1.5"/>
+                <path d="M 90 10 L 90 50 M 90 10 Q 82 20 90 30 T 90 50" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="project-tag">Python / SEG-Y Software</span>
+            <h3>Seismic Data Vis & Interpretation</h3>
+            <p>Developed Python-based seismic visualization tools supporting SEG-Y loading, spectrum analysis, velocity analysis, filtering, and interactive seismic QC and processing modules for large-scale datasets.</p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card">
+          <div class="card-media project-4-bg">
+            <div class="bar-chart-sim">
+              <rect x="15" y="35" width="10" height="20" fill="currentColor"/>
+              <rect x="35" y="20" width="10" height="35" fill="currentColor"/>
+              <rect x="55" y="10" width="10" height="45" fill="currentColor"/>
+              <rect x="75" y="25" width="10" height="30" fill="currentColor"/>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="project-tag">Power BI / Data Analytics</span>
+            <h3>Call Center Trend Analysis Dashboard</h3>
+            <p>Built interactive Power BI dashboards for KPI monitoring, trend analysis, and business intelligence reporting. Focused on data cleaning, modeling, and executive summary charts.</p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="card">
+          <div class="card-media project-5-bg">
+            <div class="mobile-app-sim">
+              <rect x="35" y="10" width="30" height="45" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="50" cy="50" r="2" fill="currentColor"/>
+              <line x1="45" y1="15" x2="55" y2="15" stroke="currentColor" stroke-width="1"/>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="project-tag">Android / App Store</span>
+            <h3>G&G: Geology and Geophysics App</h3>
+            <p>Designed and published an educational Android application focused on geology and geophysics learning concepts. Available on the Google Play Store for students and professionals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Certifications</h2>
+        <div class="divider"></div>
+        <p>A compilation of verifying credentials and training achievements.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="geophysics">Geophysics</button>
+        <button class="filter-btn" data-filter="ai-data">AI & Data Science</button>
+        <button class="filter-btn" data-filter="programming">Programming & Dev</button>
+        <button class="filter-btn" data-filter="others">Others</button>
+      </div>
+
+      <!-- Certificates Grid -->
+      <div class="cert-grid reveal">
+        <!-- Cert 1 -->
+        <div class="cert-card" data-category="geophysics">
+          <div class="cert-image-wrapper">
+            <img src="certificates/2-day Hands-on Workshop on OpendTect Software.jpg" alt="2-day Hands-on Workshop on OpendTect Software" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Geophysics</span>
+            <h4>Hands-on Workshop on OpendTect</h4>
+            <p class="cert-issuer">Kurukshetra University</p>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card" data-category="geophysics">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Seismic Data Processing.jpg" alt="Seismic Data Processing: Basic to Advance" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Geophysics</span>
+            <h4>Seismic Data Processing: Basic to Advance</h4>
+            <p class="cert-issuer">Caliche Workshop</p>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card" data-category="geophysics">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Seismic Interpretation.jpg" alt="Seismic Interpretation Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Geophysics</span>
+            <h4>Seismic Interpretation Course</h4>
+            <p class="cert-issuer">Industrial Workshop</p>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card" data-category="geophysics">
+          <div class="cert-image-wrapper">
+            <img src="certificates/iitism_ai_certificate.jpg" alt="IIT ISM Dhanbad - Skillful and Interpretable AI/ML of Geoscience Data" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Geophysics</span>
+            <h4>AI/ML of Geoscience Data</h4>
+            <p class="cert-issuer">IIT (ISM) Dhanbad</p>
+          </div>
+        </div>
+
+        <!-- Cert 5 -->
+        <div class="cert-card" data-category="ai-data">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Intro to Deep Learning.jpg" alt="Intro to Deep Learning Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">AI & Data Science</span>
+            <h4>Intro to Deep Learning</h4>
+            <p class="cert-issuer">Kaggle</p>
+          </div>
+        </div>
+
+        <!-- Cert 6 -->
+        <div class="cert-card" data-category="ai-data">
+          <div class="cert-image-wrapper">
+            <img src="certificates/accenture data analysis.jpg" alt="Accenture Data Analytics and Visualization Job Simulation" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">AI & Data Science</span>
+            <h4>Data Analytics & Visualization Sim</h4>
+            <p class="cert-issuer">Accenture (Forage)</p>
+          </div>
+        </div>
+
+        <!-- Cert 7 -->
+        <div class="cert-card" data-category="ai-data">
+          <div class="cert-image-wrapper">
+            <img src="certificates/cognizant ai.png" alt="Cognizant - Artificial Intelligence Job Simulation" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">AI & Data Science</span>
+            <h4>Artificial Intelligence Sim</h4>
+            <p class="cert-issuer">Cognizant (Forage)</p>
+          </div>
+        </div>
+
+        <!-- Cert 8 -->
+        <div class="cert-card" data-category="ai-data">
+          <div class="cert-image-wrapper">
+            <img src="certificates/intro to ai.jpg" alt="Intro to AI Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">AI & Data Science</span>
+            <h4>Introduction to AI</h4>
+            <p class="cert-issuer">Kaggle / Elements of AI</p>
+          </div>
+        </div>
+
+        <!-- Cert 9 -->
+        <div class="cert-card" data-category="programming">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Python kaggle.jpg" alt="Python Kaggle Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Programming & Dev</span>
+            <h4>Python Programming Certificate</h4>
+            <p class="cert-issuer">Kaggle</p>
+          </div>
+        </div>
+
+        <!-- Cert 10 -->
+        <div class="cert-card" data-category="programming">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Intro to Programming kaggle.jpg" alt="Intro to Programming Kaggle Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Programming & Dev</span>
+            <h4>Intro to Programming</h4>
+            <p class="cert-issuer">Kaggle</p>
+          </div>
+        </div>
+
+        <!-- Cert 11 -->
+        <div class="cert-card" data-category="programming">
+          <div class="cert-image-wrapper">
+            <img src="certificates/python certificate.jpg" alt="Python Language Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Programming & Dev</span>
+            <h4>Python Coding Competency</h4>
+            <p class="cert-issuer">Certification Institute</p>
+          </div>
+        </div>
+
+        <!-- Cert 12 -->
+        <div class="cert-card" data-category="programming">
+          <div class="cert-image-wrapper">
+            <img src="certificates/The complete android and developer course.jpg" alt="The Complete Android and Web Developer Course" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Programming & Dev</span>
+            <h4>The Complete Android Developer Course</h4>
+            <p class="cert-issuer">Udemy</p>
+          </div>
+        </div>
+
+        <!-- Cert 13 -->
+        <div class="cert-card" data-category="others">
+          <div class="cert-image-wrapper">
+            <img src="certificates/Talk on NASA technology to find life beyond earth.jpg" alt="Talk on NASA technology to find life beyond earth" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Others</span>
+            <h4>NASA Technology Seminar</h4>
+            <p class="cert-issuer">Space Development Nexus</p>
+          </div>
+        </div>
+
+        <!-- Cert 14 -->
+        <div class="cert-card" data-category="others">
+          <div class="cert-image-wrapper">
+            <img src="certificates/space settlement design contest certificate.jpg" alt="Space Settlement Design Contest Certificate" loading="lazy">
+            <div class="cert-overlay">
+              <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </div>
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge">Others</span>
+            <h4>Space Settlement Design Contest</h4>
+            <p class="cert-issuer">NASA Ames / NSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Achievements</h2>
+        <div class="divider"></div>
+        <p>Highlights of extra-curricular and competitive accomplishments.</p>
+      </div>
+      <div class="achievements-container reveal">
+        <div class="achievement-card">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-content">
+            <h4>Google Play Store Apps Publisher</h4>
+            <p>Developed and published multiple Android learning and utility applications on the Google Play Store.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon">💻</div>
+          <div class="ach-content">
+            <h4>GeoConfluence Hackathon Participant</h4>
+            <p>Competed in the Terra-Prospect track focusing on Artificial Intelligence-driven exploration and mineral mapping workflows.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon">🏅</div>
+          <div class="ach-content">
+            <h4>UI-UX Web Development Winner</h4>
+            <p>Secured 2nd position in UI-UX web development at the Abhivyanjana college festival.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon">🗣️</div>
+          <div class="ach-content">
+            <h4>Public Speaking Award</h4>
+            <p>Secured 3rd position in the ROSTRUM annual public speaking competition held at Kurukshetra University.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon">🤝</div>
+          <div class="ach-content">
+            <h4>NSS Volunteer</h4>
+            <p>Served as an active National Service Scheme (NSS) volunteer for two consecutive years, contributing to community services.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon">🎯</div>
+          <div class="ach-content">
+            <h4>CUET PG Physics Qualified</h4>
+            <p>Successfully cleared the Common University Entrance Test for Post-Graduate studies in Physics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Get in Touch</h2>
+        <div class="divider"></div>
+        <p>Open to professional discussions, collaboration, and inquiries.</p>
+      </div>
+      <div class="contact-card reveal">
+        <div class="contact-details">
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <div>
+              <label>Email</label>
+              <a href="mailto:shikharchaurasia1239@gmail.com">shikharchaurasia1239@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <div>
+              <label>LinkedIn</label>
+              <a href="https://www.linkedin.com/in/shikhar-chaurasia-3475071a4/" target="_blank" rel="noopener">linkedin.com/in/shikhar-chaurasia</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-note">
+          <p>Feel free to reach out for geophysics projects, scientific python development, data analysis collaborations, or software positions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Shikhar Chaurasia. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Certificate Preview">
+    <button class="lightbox-close" aria-label="Close Preview">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Enlarged Certificate View">
+      <h3 id="lightbox-title"></h3>
+      <p id="lightbox-desc"></p>
+      <a id="lightbox-download" class="btn" href="" download>
+        <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        Download Certificate
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
